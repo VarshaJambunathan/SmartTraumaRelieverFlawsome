@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">STAR</string>
+    <string name="app_bytext">Smart Trauma Reliever</string>
+    <string name="title_activity_display_crimes">DisplayCrimesActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="primary_key">9113e3273ef14e41ac6553d6d4edaab9</string>
+    <string name="secondary_key">be3e41ae8bec4e659c51b852699c951d</string>
+    <string name="authenticationUri">https://westus.api.cognitive.microsoft.com/sts/v1.0/issuetoken</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

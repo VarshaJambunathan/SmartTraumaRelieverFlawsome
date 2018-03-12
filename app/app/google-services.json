@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "814784262576",
+    "firebase_url": "https://smarttraumarelieverflawsome.firebaseio.com",
+    "project_id": "smarttraumarelieverflawsome",
+    "storage_bucket": "smarttraumarelieverflawsome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814784262576:android:c4b2d3c364200b48",
+        "android_client_info": {
+          "package_name": "com.example.jaisa.smarttraumareliever_flawsome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814784262576-lv2471oudl23i8vdlo3hpuolbfe7ttsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jaisa.smarttraumareliever_flawsome",
+            "certificate_hash": "a0bc224ab5d8ae64e58625a87da1e3bb38a79392"
+          }
+        },
+        {
+          "client_id": "814784262576-e10qeabh09b4nn2ct8sjj0epr8u24luj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jaisa.smarttraumareliever_flawsome",
+            "certificate_hash": "92d893a975cdb73aeb307874e6f3222e36672c7c"
+          }
+        },
+        {
+          "client_id": "814784262576-6f8sicjr493ksv5q27pp0819f2iu3mfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBinzi0b_GzDsK6nWagUv35fabz6pODu3g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814784262576-6f8sicjr493ksv5q27pp0819f2iu3mfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

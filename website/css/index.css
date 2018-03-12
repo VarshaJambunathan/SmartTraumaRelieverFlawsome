@@ -1,0 +1,16 @@
+.crimes{
+outline: 2px solid gray;
+padding: 20px;
+margin: 10px;
+font-size: 15px;
+}
+.crimeID{
+	font-size: 20px;
+	font-style:bold;
+	margin-bottom: 7px;
+}
+#CrimeTitle{
+	font-size: 35px;
+	font-family:Calibri;
+	margin-bottom: 20px;
+}

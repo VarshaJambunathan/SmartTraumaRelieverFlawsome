@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaisa.smarttraumareliever_flawsome.FIRReportActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:text="CRIME REPORT"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Incident:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/incidentTextBox"
+            android:text="The bride was killed for money. They were asked for a sum of Rs 25 lakh."
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:textStyle="bold|italic"
+            android:layout_height="wrap_content"
+            android:text="Additional Comments:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/additionalCommentsTextBox"
+            android:text="Nothing for now"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold|italic"
+            android:text="Laws Violated:"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/lawsViolatedTextBox"
+            android:text="1. Equal Renumeration Act, 1976
+2. Maternity Benefits Act 1961
+3. The Indecent Representation of Women (Prohibition) Act, 1986
+"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/homeButton"
+        android:layout_marginBottom="10dp"
+        android:text="BACK TO HOME"
+        android:background="#000000"
+        android:textColor="#e0e0e0"/>
+</LinearLayout>

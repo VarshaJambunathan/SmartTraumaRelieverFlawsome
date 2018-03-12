@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#e0e000"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.example.jaisa.smarttraumareliever_flawsome.CrimeDetailsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/remainderView"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textSize="16dp"
+        android:layout_height="55sp"
+        android:layout_marginBottom="10dp"
+        android:text="The given incident description falls under the following Laws:"
+        android:textColor="#000000"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:id="@+id/laws_view"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginRight="90dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/additionalCommentsButton"
+                android:background="@drawable/additional_comments"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="Additional Comments"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/lodgeFIRButton"
+                android:background="@drawable/handcufs1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginLeft="12dp"
+                android:text="Lodge FIR"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/additionalCommentsView"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:layout_width="300dp"
+            android:id="@+id/additionalCommentsEditText"
+            android:hint="Type any additional message related to the crime. This will be used in the FIR"
+            android:textAlignment="center"
+            android:background="@drawable/additional_comments_look"
+            android:inputType="textLongMessage|textMultiLine"
+            android:layout_height="300dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/additional_comments_look"
+            android:id="@+id/additionaCommentsDoneButton"
+            android:text="Done"/>
+    </LinearLayout>
+</FrameLayout>

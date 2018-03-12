@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layout_margin="15dp"
+    tools:context="com.example.jaisa.smarttraumareliever_flawsome.LoginPageActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/smiley3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN / SIGNUP"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="17dp"
+        />
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/usernameText"
+        android:backgroundTint="#4eb6b6"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Full Name"
+        android:maxLines="1"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/phoneText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:inputType="phone"
+            android:backgroundTint="#4eb6b6"
+            android:hint="Phone No."
+            android:fontFamily="sans-serif-condensed"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#4eb6b6"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingTop="-7dp"
+            android:paddingBottom="-7dp"
+            android:textSize="10dp"
+            android:id="@+id/sendSMSButton"
+            android:background="@drawable/good_button1"
+            android:text="Send SMS"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/verification_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#4eb6b6"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/phoneText">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/verify1"
+            android:backgroundTint="#4eb6b6"
+            android:hint="   "
+            android:textSize="40dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="   "
+            android:backgroundTint="#4eb6b6"
+            android:id="@+id/verify2"
+            android:textSize="40dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="   "
+            android:id="@+id/verify3"
+            android:backgroundTint="#4eb6b6"
+            android:textSize="40dp" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4eb6b6"
+            android:hint="   "
+            android:id="@+id/verify4"
+            android:textSize="40dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="   "
+            android:id="@+id/verify5"
+            android:backgroundTint="#4eb6b6"
+            android:textSize="40dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="   "
+            android:backgroundTint="#4eb6b6"
+            android:id="@+id/verify6"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/verifyPhoneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/good_button"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#4eb6b6"
+        android:text="Verify"/>
+</LinearLayout>

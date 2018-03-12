@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button
+        android:id="@+id/expandableButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/crime_name_in_recycler_view"
+        android:drawableRight="@android:drawable/arrow_down_float"
+        android:paddingRight="10dp"
+        android:text="Question"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        />
+    <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+        android:id="@+id/el1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/expandableButton"
+        android:padding="16dp"
+        app:ael_duration="400"
+        app:ael_expanded="true"
+        app:ael_interpolator="bounce"
+        android:layout_marginBottom="8dp"
+        app:ael_orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Answer"
+        android:id="@+id/elt1"
+        />
+    </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+</RelativeLayout>
